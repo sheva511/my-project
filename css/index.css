@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    float: left;
+    overflow: hidden;
+    
+}
+#home{
+    font-size: 27px;
+	height:350px;
+	margin: 1px 1px 1px 1px;
+	padding: 30px;
+}
+#logo{
+	font-weight: bold;
+	font-size: 20px;
+    position: relative;
+    left: 420px;
+    top: 100px;
+}
+header{
+    background-color: rgb(202, 181, 152)
+}
+ul.nav li{
+    display: inline;
+    margin-right: 10px;
+}
