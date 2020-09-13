@@ -4,7 +4,10 @@
 }
 
 body{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: blanchedalmond
+
     
  }
  html,body{
@@ -15,40 +18,38 @@ body{
  .city{
      position: absolute;
      right: 120px;
-     top: 20px;
-     font-size: 15px;
+     top: 10px;
+     font-size: 14px;
      color: grey;
 
  }
  .lable{
      position: absolute;
-     right: 230px;
-     top: 20px;
+     right: 210px;
+     top: 9px;
  }
  .tel{
      position: absolute;
      right: 300px;
      font-size: 13px;
-     top: 23px;
+     top: 10px;
      color: grey;
  }
  .icon-tel{
      position: absolute;
-     right: 415px;
-     top: 21px;
+     right: 410px;
+     top: 9px;
  }
  header{
      width: 100%;
      height: 100px;
-     background-color: rgba(216, 172, 115, 0.542);
+     background-color: whitesmoke;
  }
  #logo{
      position: absolute;
      right: 620px;
-     top: 80px;
+     top: 50px;
      font-size: 18px;
-     font-weight: bold;
-     
      
  }
 nav ul li {
