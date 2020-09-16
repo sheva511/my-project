@@ -1,12 +1,12 @@
 :root {
-    --main-color: black;
     --accent-color: white;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 body {
     max-width: 980px;
-    margin:auto;
+    margin: auto;
 }
 
 .header-nav .logo img {
@@ -20,21 +20,20 @@ body {
     background-color: black;
 }
 
-.header-nav .menu-items {
+.header-nav .menu {
     display: flex;
     justify-content: space-around;
     flex: 1;
 }
 
-.header-nav .menu-items a {
+.header-nav .menu a {
     text-decoration: none;
-    text-transform: uppercase;
     color: var(--accent-color);
-    padding: 5px;
+    padding: 3px;
     border: 1px solid transparent;
 }
 
-.header-nav .menu-items a:hover {
+.header-nav .menu a:hover {
     border: 1px solid var(--accent-color);
 }
 
@@ -45,7 +44,7 @@ body {
     }
 }
 
-.header-banner {
+.banner {
     background-image: url(../img/banner.jpg);
     background-position: top;
     background-size: cover;
@@ -56,7 +55,7 @@ body {
     flex-direction: column;
 } 
 
-.header-banner h1 {
+.banner h1 {
     font-size: 3rem;
     color: var(--accent-color);
 }
